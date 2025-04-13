@@ -1,7 +1,7 @@
 package org.example.semaphore;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.concurrent.Semaphore;
 
 public class Client {
@@ -37,6 +37,9 @@ public class Client {
 
         System.out.println(Thread.activeCount());
 
+        List list = Arrays.asList(7,5,3,9,7,8,5);
+
+        Collections.sort(list);
 
 
 
